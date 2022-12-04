@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <!--MetaDatos prueba si sube-->
+  <meta charset="UTF-8">
+  <meta name="author" content="Gustavo Sanmartino">
+  <meta name="description" content="Portafolio de desarrollo Web de Gustavo Sanmartino">
+  <meta name="keywords" content="HTML, CSS, JavaScript, REACT">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!--Iconos de bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!--Titulo-->
+  <title>Gustavo Sanmartino | Desarrollo Web Front-End</title>
+  <!--favicon-->
+  <link rel="icon" type="image/x-icon" href="multimedia/iconos/laptop.png">
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
+  <!--Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+
+
+</head>
+
+<body>
+  <!--barra de navegacion-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand">
+          <!--Aca puedo colocarle una href. y que me lleve hacia algun sitio-->
+          <img src="/multimedia/iconos/laptop.png" width="50" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia Laboral</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Seccion Hero-->
+  <section class="hero align-items-stretch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-imagen-perfil rounded-circle" src="/multimedia/imagenes/foto perfil.png"
+        alt="foto de perfil gustavo">
+      <h1>Hola, soy Gustavo Sanmartino</h1>
+      <h2>Desarrollo sitios web, escribo y publico artículos sobre Marketing Digital<br>Preparandome para asesorar a
+        pequeñas y medianas empresas en posicionamiento Web (SEO) </h2>
+    </div>
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="/multimedia/imagenes/Foto program.jpg">
+    </div>
+  </section>
+  <!--Sobre mi-->
+  <section id="sobre-mi" class="sobre-mi fondo-oscuro">
+    <div class="contenedor">
+      <h1 class="seccion-titulo">Conoce a Gustavo</h1>
+      <p class="seccion-texto">Soy Licenciado en Marketing trabajé como manager de unidades de negocios en empresas
+        importantes, las cuales encontrarás info. en la sección... <a href="#experiencia"><strong>Experiencia
+            Lavoral</strong></a><br>
+        Mi característica principal:<br> Business and commercial relation<br> Soy muy organizado y competente. Tengo más
+        de
+        20 años de experiencia en sectores de ventas, administración y logística (deportista 100%)<br> Estudiante de
+        Carreras: <br> Desarrollo Web - Full Stack Developer - Marketing Digital y SEO</p>
+    </div>
+  </section>
+  <!--Panel informativo-->
+  <section class="informativo fondo-claro">
+    <div class="container text-center">
+      <div class="row">
+        <!--Desarrollo Web-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="informativo-titulo">Desarrollo Web</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat commodi, hic et, saepe mollitia quam
+            delectus sequi aliquid suscipit magni, veniam possimus cum error architecto omnis magnam dignissimos ipsam
+            animi!</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">React</span>
+          </div>
+        </div>
+        <!--Articulos-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <!--icono sacado de pagina Bootstrap-->
+          <p class="informativo-titulo">Artículos que me gustan</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint magnam aspernatur voluptas? Autem
+            exercitationem, modi ratione est, id cupiditate soluta veritatis voluptate a velit magnam. Labore nesciunt
+            corrupti velit voluptate.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Marketing Digital</span>
+            <span class="badge text-bg-primary">Deportes</span>
+            <span class="badge text-bg-primary">Noticias</span>
+          </div>
+        </div>
+        <!--Estudiante-->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="informativo-titulo">Soy Estudiante</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint magnam aspernatur voluptas? Autem
+            exercitationem, modi ratione est, id cupiditate soluta veritatis voluptate a velit magnam. Labore nesciunt
+            corrupti velit voluptate.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">FreeCodeCamp</span>
+            <span class="badge text-bg-primary">CoderHouse</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Experiencia Laboral-->
+  <section id="experiencia" class="proyectos-recientes   seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mi experiencia laboral</h2>
+    <h3 class="seccion-descripcion">Estas son algunas de mis experiencias laborales</h3>
+    <!--Galeria laboral-->
+    <div class="container text-center laboral-contendor">
+      <div class="row">
+        <!-- laboral 1 la perfumerie-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="laboral">
+            <img src="/multimedia/logos/logo la perfumerie.png" width="300px" alt="trabajo 1">
+            <div class="sobre">
+              <p>Gran cambio</p>
+              <div class="icono-contenedor">
+                <a href="/laboral.html">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- laboral 2 Musimundo-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="laboral">
+            <img src="/multimedia/logos/Logo de musimundo.png" alt="trabajo 2">
+            <div class="sobre">
+              <p>Entra, te sorprenderás</p>
+              <div class="icono-contenedor">
+                <a href="/laboral.html">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- laboral 3 Garbarino-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="laboral">
+            <img src="/multimedia/logos/Logo garbarino.png" width="250px" height="250px" alt="trabajo 3">
+            <div class="sobre">
+              <p>Muy buena experencia!!</p>
+              <div class="icono-contenedor">
+                <a href="/laboral.html">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- laboral 4 Megatone-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="laboral">
+            <img src="/multimedia/logos/logo megatone.png" alt="trabajo 4">
+            <div class="sobre">
+              <p>Aprendí a ser manager</p>
+              <div class="icono-contenedor">
+                <a href="/laboral.html">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- laboral 5 Wiltel-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="laboral">
+            <img src="/multimedia/logos/Logo de wiltel.png" alt="trabajo 5">
+            <div class="sobre">
+              <p>Siempre aprendiendo nuevos caminos</p>
+              <div class="icono-contenedor">
+                </a>
+                <a href="/laboral.html">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- laboral 6 Ilolay-->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="laboral">
+            <img src="/multimedia/logos/logo ilolay.png" alt="trabajo 6">
+            <div class="sobre">
+              <p>Mis inicios</p>
+              <div class="icono-contenedor">
+                </a>
+                <a href="/laboral.html">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="/laboral.html" target="_blank" rel="neopener noreferrer ">
+      <button type="button" class="btn btn-info">
+        Ver mas trabajos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+  <!--Articulos-->
+  <section class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Articulos</h2>
+    <div class="card">
+      <div class="card-header">
+        Mas recientes
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://mailchimp.com/" target="_blank">
+          <li class="list-group-item">recomendaciones personalizadas y mejorar tu contenido, segmentación y
+            automatizaciones.
+          </li>
+        </a>
+        <a href="https://www.cegid.com/" target="_blank">
+          <li class="list-group-item">Trabajo remoto Más de 1.200 clientes ya confían en nosotros. ¡Únete al cambio!
+          </li>
+        </a>
+        <a href="https://blogdebienestar.com/" target="_blank">
+          <li class="list-group-item">El deporte diario favorece el sistema inmune</li>
+        </a>
+      </ul>
+    </div>
+    <!--Aca voy a poner articulos relacionados con los de arriba-->
+    <a href="google.com" target="_blank" rel="neopener noreferrer ">
+      <button type="button" class="btn btn-info">
+        Ver mas Articulos..
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+  <!--Proyectos-->
+  <section id="proyectos" class="proyectos fondo-claro">
+    <h2 class="seccion-titulo">Mis proyectos presentes y Futuros</h2>
+    <h3 class="seccion-descripcion">Estos son los proyectos cumplimentados y los que están por venir</h3>
+
+    <!--Carrusel-->
+    <div id="proyectos-carousel" class="carousel carrusel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!--Proyecto 1-->
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="proyectos-imagen rounded-circle" src="/multimedia/imagenes/Imagen escritorio 1.jpg"
+              alt="proyecto porfolio personal">
+            <p class="proyectos-texto">Este es mi primer proyecto con HTML, CSS y Bootstrap5 y estoy mas que contento ya
+              que comencé este nuevo camino con muchas ganas y corage </p>
+            <div class="proyectos-info">
+              <p class="nombre-proyecto">
+                <a href="https://github.com/Gusta1075">Porfolio Personal
+              </p></a>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 2-->
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="proyectos-imagen rounded-circle" src="/multimedia/imagenes/Imagen escritorio 2.jpg"
+              alt="proyecto porfolio personal">
+            <p class="proyectos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae temporibus
+              fugit quibusdam animi suscipit odit laborum tenetur incidunt sint </p>
+            <div class="proyectos-info">
+              <p class="nombre-proyecto">
+                <a href="https://github.com/Gusta1075">Porfolio Personal
+              </p></a>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 3-->
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="proyectos-imagen rounded-circle" src="/multimedia/imagenes/Imagen escritorio 3.jpg"
+              alt="proyecto porfolio personal">
+            <p class="proyectos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae temporibus
+              fugit quibusdam animi suscipit odit laborum tenetur </p>
+            <div class="proyectos-info">
+              <p class="nombre-proyecto">
+                <a href="https://github.com/Gusta1075">Porfolio Personal
+              </p></a>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 4-->
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="proyectos-imagen rounded-circle" src="/multimedia/imagenes/Imagen escritorio 4.jpg"
+              alt="proyecto porfolio personal">
+            <p class="proyectos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae temporibus
+              fugit quibusdam animi suscipit odit laborum tenetu </p>
+            <div class="proyectos-info">
+              <p class="nombre-proyecto">
+                <a href="https://github.com/Gusta1075">Porfolio Personal
+              </p></a>
+            </div>
+          </div>
+        </div>
+        <!--Proyecto 5-->
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="proyectos-imagen rounded-circle" src="/multimedia/imagenes/Imagen escritorio.jpg"
+              alt="proyecto porfolio personal">
+            <p class="proyectos-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestiae temporibus
+              fugit quibusdam animi suscipit odit laborum ten </p>
+            <div class="proyectos-info">
+              <p class="nombre-proyecto">
+                <a href="https://github.com/Gusta1075">Porfolio Personal
+              </p></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#proyectos-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#proyectos-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+  <!--Contacto-->
+  <section id="contacto" class="contacto fondo-oscuro">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contactame para realizar tu Sitio Web y hacer realidad todo lo que pensas.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:gustavosanmartino.gs@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Pie de pagina / footer-->
+  <footer class="fondo-oscuro d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="/multimedia/iconos/laptop.png" alt="logo del porfolio">
+    <p class="footer-texto text-center">Todos los dias aprendo y creo nuevos proyectos<br>Creemos un proyecto juntos</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/GsSanmartino" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-twitter"></i>
+      </a>
+      <a href="https://github.com/Gusta1075" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/gustavo-sanmartino-oyoli-98170249/" target="_blank"
+        rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/sanmartinogusta/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:gustavosanmartino.gs@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="Derechos-de-Autor">Creado por Gustavo Sanmartino (Nov.2022) &#169;</div>
+  </footer>
+  <!--Script-Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
