@@ -15,6 +15,7 @@
     --transition: 0.3s
 }
 
+
 /* Barra de Navegacion*/
 
 .navbar {
@@ -187,7 +188,7 @@ h1 {
     padding: 50px;
 }
 
-.laboral-recientes.img {
+.laboral-recientes {
     height: 100%;
     width: 100%;
     padding: 10px;
@@ -221,15 +222,26 @@ h1 {
     color: rgb(55, 17, 17);
 }
 
-.laboral:hover img {
+.card:hover img {
     opacity: 0.2;
 }
-
-.laboral {
-    position: relative;
+.card-img-top {
+    padding: 5%;
+    border-radius: 50%;
+    
 }
 
-.laboral:hover .sobre {
+.card {
+    position: relative;
+    border-radius: 5%;
+   
+   
+}
+.card-title {
+    font-family:'Rubik Dirt', cursive;
+}
+
+.card:hover .sobre {
     opacity: 1;
 }
 
@@ -409,6 +421,9 @@ h1 {
 }
 
 /*Adaptable (responsivo)*/
+
+
+
 @media screen and (max-width: 800px) {
     .proyecto-imagen {
         height: 120px;
@@ -426,9 +441,10 @@ h1 {
     }
 
     .sobre i {
-        font-size: 40px;
+        font-size: 400px;
     }
 }
+
 
 @media screen and (max-width: 767px) {
     .navbar-brand {
