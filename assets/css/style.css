@@ -202,57 +202,27 @@ h1 {
     margin-bottom: 40px;
 }
 
-.sobre {
-    transition: all 0.2s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-
-}
-
-/*a los parrafos sobre la imagen*/
-.sobre p {
-    font-size: 10px;
-    font-weight: bold;
-    margin-bottom: 0;
-    font-family: monospace;
-    color: rgb(55, 17, 17);
+.card img {
+    width: 4rem;
 }
 
 .card:hover img {
-    opacity: 0.2;
+    transform: scale(1);
+    width: 150px;
+    transition: all 0.5s;
 }
 .card-img-top {
     padding: 5%;
     border-radius: 50%;
     
 }
-
 .card {
     position: relative;
     border-radius: 5%;
-   
-   
 }
 .card-title {
     font-family:'Rubik Dirt', cursive;
-}
-
-.card:hover .sobre {
-    opacity: 1;
-}
-
-.sobre .iconos-contenedor {
-    display: flex;
-}
-
-.sobre i {
-    color: black;
-    font-size: 60px;
-    margin: 10px;
+   
 }
 
 /*Articulos*/
@@ -372,6 +342,24 @@ h1 {
     min-height: 500px;
 }
 
+.desplazarse-hacia-arriba {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+  
+.flecha img {
+    border: 2px solid;
+    border-radius: 50%;
+    color:#0a0a23
+}
+.flecha-arriba {
+    width: 3.0rem;
+    height: 3.0rem;
+    
+  }
+
 .footer-logo {
     height: 80px;
     width: 80px;
@@ -421,8 +409,6 @@ h1 {
 }
 
 /*Adaptable (responsivo)*/
-
-
 
 @media screen and (max-width: 800px) {
     .proyecto-imagen {
