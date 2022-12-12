@@ -185,21 +185,19 @@ h1 {
 
 /*Laboral*/
 .laboral-recientes {
-    padding: 50px;
-}
-
-.laboral-recientes {
     height: 100%;
     width: 100%;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 0px;
     display: block;
     transition: all 0.2s ease;
+    background-color: #cad6c0;
+
 }
 
 .laboral-contenedor {
     padding-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .card img {
@@ -211,18 +209,24 @@ h1 {
     width: 150px;
     transition: all 0.5s;
 }
+
 .card-img-top {
     padding: 5%;
     border-radius: 50%;
-    
+
 }
+
 .card {
     position: relative;
-    border-radius: 5%;
+    border-radius: 10%;
+    background: linear-gradient(rgb(118, 114, 171), rgb(105, 175, 115));
+    height: 100%;
+
 }
+
 .card-title {
-    font-family:'Rubik Dirt', cursive;
-   
+    font-family: 'Rubik Dirt', cursive;
+
 }
 
 /*Articulos*/
@@ -231,15 +235,14 @@ h1 {
     padding: 30px;
 
 }
-
-.articulos .card {
-    width: 80%;
-    max-width: 600px;
-    margin: 20px;
+.articulos-card {
+    background-color: #a1a4c0;
+    border: 2px solid black;
 }
 
 .card-header {
     font-weight: bold;
+    text-align: center;
 }
 
 /*proyectos*/
@@ -250,7 +253,7 @@ h1 {
 .proyectos .carousel {
     max-width: 800px;
     background-color: rgb(228, 231, 239);
-    border-radius: 10px;
+    
 
 }
 
@@ -268,8 +271,8 @@ h1 {
 }
 
 .proyectos-imagen {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     margin: 10px 10px 20px 10px;
 
 }
@@ -345,20 +348,18 @@ h1 {
 .desplazarse-hacia-arriba {
     position: fixed;
     right: 0.5%;
-    bottom: 3%;
+    bottom: 2%;
     cursor: pointer;
+    transform: rotate(90deg);
 }
-  
-.flecha img {
-    border: 2px solid;
-    border-radius: 50%;
-    color:#0a0a23
-}
-.flecha-arriba {
+
+.flecha-arriba{ 
     width: 3.0rem;
     height: 3.0rem;
-    
-  }
+    border-radius: 50%;
+    border: 2px solid black;
+   
+}
 
 .footer-logo {
     height: 80px;
