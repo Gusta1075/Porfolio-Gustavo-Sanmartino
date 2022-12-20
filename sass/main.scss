@@ -2,14 +2,13 @@
 /* base*/
 @import './base/resets.scss';
 @import './base/base.scss';
-
 /*abstracts*/
 @import './abstracts/variables.scss';
-
 /*layout*/
 @import './layout/secciones';
-
 /*footer*/
 @import './footer/footer.scss';
+/*Media queries*/
+@import './base/media.scss'
 
 
