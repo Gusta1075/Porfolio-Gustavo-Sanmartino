@@ -175,8 +175,7 @@ h1 {
   height: 100%; }
 
 .card-title {
-  font-family: 'Rubik Dirt', cursive;
-  color: #545252; }
+  font-family: 'Rubik Dirt', cursive; }
 
 /*Articulos*/
 .articulos {
@@ -196,8 +195,8 @@ h1 {
   padding: 40px 40px 80px 40px; }
 
 .proyectos .carousel {
-  max-width: 800px;
-  background-color: #bdc0c7; }
+  max-width: 850px;
+  background-color: #dbdde1; }
 
 .carousel-item {
   height: 500px; }
@@ -332,7 +331,7 @@ h1 {
     height: 120px;
     width: 120px; }
   .proyecto-texto {
-    font-size: 18px; } }
+    font-size: 10px; } }
 
 @media screen and (min-width: 400px) {
   .sobre p {
