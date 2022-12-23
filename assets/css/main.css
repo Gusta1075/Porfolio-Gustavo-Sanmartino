@@ -175,7 +175,8 @@ h1 {
   height: 100%; }
 
 .card-title {
-  font-family: 'Rubik Dirt', cursive; }
+  font-family: 'Rubik Dirt', cursive;
+  color: #545252; }
 
 /*Articulos*/
 .articulos {
@@ -325,7 +326,6 @@ h1 {
   padding: 20px;
   text-align: center; }
 
-/*Media queries*/
 /*Adaptable (responsivo)*/
 @media screen and (max-width: 800px) {
   .proyecto-imagen {
