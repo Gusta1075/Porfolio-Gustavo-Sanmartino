@@ -29,7 +29,7 @@
 }
 
 .informativo .columna:hover {
-    color: white;
+    color: $bg-color;
     background-color: #0a0a23;
 }
 
@@ -71,7 +71,7 @@
     border-radius: 0px;
     display: block;
     transition: all 0.2s ease;
-    background-color: #cad6c0;
+    background-color: $bg-color;
 
 }
 
@@ -131,7 +131,7 @@
 }
 .proyectos .carousel {
     max-width: 850px;
-    background-color: rgb(219, 221, 225);
+    background-color: $bg-color;
 }
 .carousel-item {
     height: 500px;
@@ -182,9 +182,9 @@
 
 .contacto .rectangulo {
     margin-top: -5rem;
-    background-color: rgb(13, 110, 253);
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px white;
+    background-color: $primary-color;
 }
 
 .contacto .row {
@@ -194,12 +194,12 @@
 }
 
 .contacto .descripcion {
-    color: white;
+    color:$bg-color;
     font-size: 1.2rem;
 }
 
 .contacto button {
-    color: white;
+    color:$bg-color;
     font-weight: bold;
     background-color: transparent;
     border: 2px solid white;
@@ -211,7 +211,7 @@
 }
 
 .contacto button i {
-    color: white;
+    color:$bg-color;
     font-size: 1.3rem;
     transition: all 0.2s ease-in-out;
 }

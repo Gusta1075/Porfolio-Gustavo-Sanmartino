@@ -114,7 +114,7 @@ h1 {
   transition: all 0.2s ease-in; }
 
 .informativo .columna:hover {
-  color: white;
+  color: #e8f2f5;
   background-color: #0a0a23; }
 
 .informativo-titulo {
@@ -150,7 +150,7 @@ h1 {
   border-radius: 0px;
   display: block;
   transition: all 0.2s ease;
-  background-color: #cad6c0; }
+  background-color: #e8f2f5; }
 
 .laboral-contenedor {
   padding-top: 60px;
@@ -196,7 +196,7 @@ h1 {
 
 .proyectos .carousel {
   max-width: 850px;
-  background-color: #dbdde1; }
+  background-color: #e8f2f5; }
 
 .carousel-item {
   height: 500px; }
@@ -238,9 +238,9 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: #0d6efd;
   border-radius: 10px;
-  box-shadow: 0px 1px 4px 1px white; }
+  box-shadow: 0px 1px 4px 1px white;
+  background-color: #4756df; }
 
 .contacto .row {
   width: 100%;
@@ -248,11 +248,11 @@ h1 {
   align-items: center; }
 
 .contacto .descripcion {
-  color: white;
+  color: #e8f2f5;
   font-size: 1.2rem; }
 
 .contacto button {
-  color: white;
+  color: #e8f2f5;
   font-weight: bold;
   background-color: transparent;
   border: 2px solid white;
@@ -262,7 +262,7 @@ h1 {
   transition: all 0.2s ease-in-out; }
 
 .contacto button i {
-  color: white;
+  color: #e8f2f5;
   font-size: 1.3rem;
   transition: all 0.2s ease-in-out; }
 
@@ -308,13 +308,13 @@ h1 {
   transition: all 0.2s ease-in; }
 
 .iconos-redes-sociales i {
-  color: white;
+  color: #e8f2f5;
   font-size: 1.5rem;
   transition: all 0.2s ease-in; }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid #0d6efd; }
+  background-color: #e8f2f5;
+  border: 2px solid #4756df; }
 
 .iconos-redes-sociales a:hover i {
   color: black; }
