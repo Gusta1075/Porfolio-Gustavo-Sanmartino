@@ -21,10 +21,6 @@
     padding: 40px 40px 60px 40px;
 }
 
-.masInfo {
-    color: #545252;
-}
-
 .informativo .columna {
     padding: 20px;
     border: 2px solid #8080804d;
@@ -37,7 +33,7 @@
 
 .informativo .columna:hover {
     color: $bg-color;
-    background-color: #0a0a23;
+    background-color: #1a1a5a;
 }
 
 .informativo-titulo {
@@ -52,9 +48,9 @@
     font-weight: bold;
     margin: 10px 0;
 }
-
-.badges {
+.badge {
     margin: 5px;
+    background-color: #7ade30
 }
 
 /*botones de bootstrap*/
@@ -117,6 +113,7 @@
     padding: 30px;
 
 }
+
 .articulos-card {
     background-color: #a1a4c0;
     border: 2px solid black;
@@ -131,10 +128,12 @@
 .proyectos {
     padding: 40px 40px 80px 40px;
 }
+
 .proyectos .carousel {
     max-width: 850px;
     background-color: $bg-color;
 }
+
 .carousel-item {
     height: 500px;
 }
@@ -196,12 +195,12 @@
 }
 
 .contacto .descripcion {
-    color:$bg-color;
+    color: $bg-color;
     font-size: 1.2rem;
 }
 
 .contacto button {
-    color:$bg-color;
+    color: $bg-color;
     font-weight: bold;
     background-color: transparent;
     border: 2px solid white;
@@ -213,7 +212,7 @@
 }
 
 .contacto button i {
-    color:$bg-color;
+    color: $bg-color;
     font-size: 1.3rem;
     transition: all 0.2s ease-in-out;
 }
@@ -231,10 +230,10 @@
     transform: rotate(90deg);
 }
 
-.flecha-arriba{ 
+.flecha-arriba {
     width: 3.0rem;
     height: 3.0rem;
     border-radius: 50%;
     border: 2px solid black;
-   
+
 }

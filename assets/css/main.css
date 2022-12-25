@@ -83,6 +83,21 @@ h1 {
   font-size: 1.5rem;
   color: #615151; }
 
+.imagen-html {
+  width: 100px; }
+
+.imagen-css {
+  width: 100px; }
+
+.imagen-js {
+  width: 100px; }
+
+.imagen-reac {
+  width: 100px; }
+
+.imagen-p {
+  width: 500px; }
+
 /*abstracts*/
 /*fuentes*/
 /*Colores*/
@@ -106,9 +121,6 @@ h1 {
 .informativo {
   padding: 40px 40px 60px 40px; }
 
-.masInfo {
-  color: #545252; }
-
 .informativo .columna {
   padding: 20px;
   border: 2px solid #8080804d;
@@ -120,7 +132,7 @@ h1 {
 
 .informativo .columna:hover {
   color: #e8f2f5;
-  background-color: #0a0a23; }
+  background-color: #1a1a5a; }
 
 .informativo-titulo {
   font-size: 25px;
@@ -133,8 +145,9 @@ h1 {
   font-weight: bold;
   margin: 10px 0; }
 
-.badges {
-  margin: 5px; }
+.badge {
+  margin: 5px;
+  background-color: #7ade30; }
 
 /*botones de bootstrap*/
 .informativo i {
