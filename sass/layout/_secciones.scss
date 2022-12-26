@@ -3,24 +3,20 @@
     display: block;
     width: 50px;
     height: 50px;
-
 }
-
 .sobre-mi {
     height: 500px;
     padding: 10px;
 }
-
 .sobre-mi .contenedor {
     max-width: 600px;
     text-align: center;
 }
-
 /*Seccion panel informativo*/
 .informativo {
     padding: 40px 40px 60px 40px;
+    background-color: #eff38d;
 }
-
 .informativo .columna {
     padding: 20px;
     border: 2px solid #8080804d;
@@ -30,19 +26,16 @@
     justify-content: space-evenly;
     transition: all 0.2s ease-in;
 }
-
 .informativo .columna:hover {
     color: $bg-color;
     background-color: #1a1a5a;
 }
-
 .informativo-titulo {
     font-size: 25px;
     margin: 10px 0;
     color: rgb(4, 6, 8);
     font-family: 'Rubik Dirt', cursive;
 }
-
 .badges-contenedor {
     font-size: 25px;
     font-weight: bold;
@@ -52,7 +45,6 @@
     margin: 5px;
     background-color: #7ade30
 }
-
 /*botones de bootstrap*/
 .informativo i {
     font-size: 2.5rem;
@@ -61,7 +53,6 @@
     padding: 8px 19px;
     border-radius: 50%;
 }
-
 /*Laboral*/
 .laboral-recientes {
     height: 100%;
@@ -71,30 +62,24 @@
     display: block;
     transition: all 0.2s ease;
     background-color: $bg-color;
-
 }
-
 .laboral-contenedor {
     padding-top: 60px;
     margin-bottom: 40px
 }
-
 .card img {
     width: 4rem;
 }
-
 .card:hover img {
     transform: scale(1);
     width: 150px;
     transition: all 0.5s;
 }
-
 .card-img-top {
     padding: 5%;
     border-radius: 50%;
 
 }
-
 .card {
     position: relative;
     border-radius: 10%;
@@ -110,21 +95,26 @@
 /*Articulos*/
 .articulos {
     min-height: 500px;
-    padding: 30px;
+    background-color: #a2d4dc;
+    padding: 5px 10px 10px 5px;
 }
 .articulos-card {
     background-color: #a1a4c0;
     border: 2px solid black;
 }
-
 .card-header {
     font-weight: bold;
     text-align: center;
+}
+.btn-info {
+    background-color: #838388;
 }
 
 /*proyectos*/
 .proyectos {
     padding: 40px 40px 80px 40px;
+    background-color: #7ade30;
+    
 }
 
 .proyectos .carousel {

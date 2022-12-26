@@ -104,7 +104,8 @@ h1 {
 
 /*Seccion panel informativo*/
 .informativo {
-  padding: 40px 40px 60px 40px; }
+  padding: 40px 40px 60px 40px;
+  background-color: #eff38d; }
 
 .informativo .columna {
   padding: 20px;
@@ -180,7 +181,8 @@ h1 {
 /*Articulos*/
 .articulos {
   min-height: 500px;
-  padding: 30px; }
+  background-color: #a2d4dc;
+  padding: 5px 10px 10px 5px; }
 
 .articulos-card {
   background-color: #a1a4c0;
@@ -190,9 +192,13 @@ h1 {
   font-weight: bold;
   text-align: center; }
 
+.btn-info {
+  background-color: #838388; }
+
 /*proyectos*/
 .proyectos {
-  padding: 40px 40px 80px 40px; }
+  padding: 40px 40px 80px 40px;
+  background-color: #7ade30; }
 
 .proyectos .carousel {
   max-width: 850px;
