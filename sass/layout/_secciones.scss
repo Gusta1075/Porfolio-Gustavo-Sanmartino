@@ -111,9 +111,7 @@
 .articulos {
     min-height: 500px;
     padding: 30px;
-
 }
-
 .articulos-card {
     background-color: #a1a4c0;
     border: 2px solid black;
@@ -133,7 +131,6 @@
     max-width: 850px;
     background-color: $bg-color;
 }
-
 .carousel-item {
     height: 500px;
 }
@@ -148,17 +145,18 @@
 }
 
 .proyectos-imagen {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     margin: 10px 10px 20px 10px;
-
+    border-radius: 50%;
 }
 
 .proyectos-texto {
-    max-width: 70%;
-    font-size: 20px;
+    max-width: 90%;
+    font-size: 15px;
     text-align: center;
     font-family: 'Share Tech Mono', monospace;
+    
 }
 
 .proyectos-info {
