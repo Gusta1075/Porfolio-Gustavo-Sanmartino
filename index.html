@@ -25,8 +25,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
-    rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+   
   <!--Animaciones-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
@@ -73,14 +73,16 @@
         pequeñas y medianas empresas en Marketing digital y posicionamiento Web (SEO) </h2>
     </div>
     <div class="iconos-lenguajes">
-      <img src="assets/icons/html5.png" class="imagen-html animate__animated animate__rubberBand wow" width="100px" alt="icono de html">
-      <img src="assets/icons/css.png" class="imagen-css animate__animated animate__bounceInDown wow" width="100px" alt="icono de css">
-      <img src="assets/images/Foto program.jpg" class="imagen-p animate__animated animate__fadeInTopLeft wow" width="350px"
-        alt="imagen tipo dibujo de un ordenador">
+      <img src="assets/icons/html5.png" class="imagen-html animate__animated animate__rubberBand wow" width="100px"
+        alt="icono de html">
+      <img src="assets/icons/css.png" class="imagen-css animate__animated animate__bounceInDown wow" width="100px"
+        alt="icono de css">
+      <img src="assets/images/Foto program.jpg" class="imagen-p animate__animated animate__fadeInTopLeft wow"
+        width="350px" alt="imagen tipo dibujo de un ordenador">
       <img src="assets/icons/javaScript.png" class="imagen-js animate__animated animate__flip wow" width="100px"
         alt="icono de javascript">
-      <img src="assets/icons/react.png" class="imagen-reac animate__animated animate__rotateInDownLeft wow"  width="100px"
-        alt="icono de react">
+      <img src="assets/icons/react.png" class="imagen-reac animate__animated animate__rotateInDownLeft wow"
+        width="100px" alt="icono de react">
     </div>
   </section>
   <!--Sobre mi-->
@@ -370,6 +372,38 @@
       </div>
     </div>
   </section>
+  <!--Formulario de contacto-->
+  <section class="formulario">
+  <form class="form" action="https://formspree.io/f/myyvbqnv" method="POST">
+    <h2 class="form__title">Formulario de Contacto</h2>
+    <p class="form__paragraph">Completa los datos y dejame un mensaje</p>
+    <div class="form__container">
+      <div class="form__group">
+        <input type="text" id="name" class="form__input" name="name" placeholder=" ">
+        <label for="name" class="form__label">Nombre:</label>
+        <span class="form__line"></span>
+      </div>
+      
+      <div class="form__group">
+        <input type="text" id="user" class="form__input" name="name" placeholder=" ">
+        <label for="use" class="form__label">Apellido</label>
+        <span class="form__line"></span>
+      </div>
+      <div class="form__group">
+        <input type="email" id="email" class="form__input" name="name" placeholder=" ">
+        <label for="email" class="form__label">Email:</label>
+        <span class="form__line"></span>
+      </div>
+      <div class="form__group">
+        <textarea name="mensaje" placeholder="Mensaje" id="" cols="30" rows="2"></textarea>
+        <span class="form__line"></span>
+      </div>
+      <input type="submit" class="form__submit" value="Enviar">
+      <input type="reset" class="form__submit" value="Reset">
+      
+    </div>
+  </form>
+</section>
   <!--Pie de pagina / footer-->
   <footer class="fondo-oscuro d-flex flex-column align-items-center justify-content-center">
     <img class="footer-logo" src="assets/icons/laptop.png" alt="logo del porfolio laptop">
@@ -407,10 +441,9 @@
     crossorigin="anonymous"></script>
   <script src="assets/js/mov.js"></script>
   <script src="https://wowjs.uk/dist/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
-
