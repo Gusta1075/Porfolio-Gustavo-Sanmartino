@@ -35,6 +35,10 @@ h1 {
   font-size: 2.5rem;
   font-family: 'Rubik Dirt', cursive; }
 
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Rubik Dirt', cursive; }
+
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
@@ -42,7 +46,7 @@ h1 {
 
 .fondo-oscuro {
   color: white;
-  background-color: #1b1b32; }
+  background-color: #3c3c6c; }
 
 .fondo-claro {
   color: black;
@@ -90,10 +94,12 @@ h1 {
 /*botones*/
 /*layout*/
 /*Sobre mi */
-.icono-lenguajes {
-  display: block;
-  width: 50px;
-  height: 50px; }
+.iconos-lenguajes {
+  display: flex;
+  place-content: center;
+  width: 100%;
+  height: 100%;
+  background: #eeeef0; }
 
 .sobre-mi {
   height: 500px;
