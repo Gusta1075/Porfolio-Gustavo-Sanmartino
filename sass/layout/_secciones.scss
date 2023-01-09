@@ -77,17 +77,15 @@
     transition: all 0.2s;
 }
 .card-img-top {
-    padding: 5%;
-    border-radius: 50%;
+    border-radius: 10%;
+
 }
 .card {
     position: relative;
-    
     padding: 2rem;
     border-radius: 2%;
-    background: linear-gradient(rgb(118, 114, 171), rgb(105, 175, 115));
+    background: linear-gradient(rgb(139, 137, 159), rgb(105, 175, 115));
     height: 100%;
-
 }
 
 .card-title {

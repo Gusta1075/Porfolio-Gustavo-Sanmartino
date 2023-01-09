@@ -172,14 +172,13 @@ h2 {
   transition: all 0.2s; }
 
 .card-img-top {
-  padding: 5%;
-  border-radius: 50%; }
+  border-radius: 10%; }
 
 .card {
   position: relative;
   padding: 2rem;
   border-radius: 2%;
-  background: linear-gradient(#7672ab, #69af73);
+  background: linear-gradient(#8b899f, #69af73);
   height: 100%; }
 
 .card-title {
