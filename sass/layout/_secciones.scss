@@ -71,7 +71,11 @@
 .card img {
     width: 4rem;
 }
-
+.card img:hover  {
+    transform: scale(1);
+    width: 100px;
+    transition: all 0.2s;
+}
 .card-img-top {
     border-radius: 10%;
 
