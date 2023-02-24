@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey ;
+}
+
+.principal {
+    display: flex;
+    min-width: 768px;
+    max-width: 320px;
+    
+}
+.texto {
+    font-size: 14px;
+    margin-bottom: 4rem;
+    flex-grow: 1;
+}
+.columna {
+    color: white;
+    padding: 2rem;
+    width: 25%;
+    overflow: hidden;
+    transition: width .3s ease-in-out;
+    cursor:pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.columna.activa {
+    width: 50%;
+}
+.columna:first-of-type {
+    border-radius: 1rem 0 0 1rem;
+}
+.columna:last-of-type {
+    border-radius: 0 1rem 1rem 0;
+}
+.dn {
+    background-color: hsl(31, 77%, 52%);
+}
+.li {
+    background-color: hsl(184, 100%, 22%);
+}
+.em {
+    background-color: hsl(179, 100%,  13%);
+}
+.titulo {
+    font-family: 'Rubik Dirt', cursive;
+    text-transform: uppercase;
+}
+.enlace {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 12px;
+
+}
+.dn .enlace {
+    color: hsl(31, 77%, 52%);
+}
+.li .enlace {
+    color: hsl(184, 100%, 22%);
+}
+.em .enlace {
+    color: hsl(179, 100%,  13%);
+}
